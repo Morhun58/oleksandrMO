@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    font-family: Roboto;
+}
+header{
+    background-color: none;
+    padding: 65px 0 60px 0;
+}
+.header-container{
+    width: 800px;
+    margin: 0 auto;
+}
+.logo,
+.social{
+    display: inline-block;
+width: 390px;
+}
+.social{
+    text-align: right;
+}
+.social img{
+    margin-left:17px;
+}
+.main-section{
+    background: #FAC960;
+    padding: 110px 0;
+}
+.content-wrapper{
+    text-align: center;
+}
+input{
+    border: none;
+    color: #999;
+    width: 490px;
+    height: 50px;
+    font-size: 30px;
+}
+button{
+    color: #FFF;
+    width: 240px;
+    height: 50px;
+    font-size: 30px;
+    background: #A8863D;
+}
+p{
+    line-height:5px;
+    color: rgba(0, 0, 0, 0.40);
+    font-size: 44px;
+}
+.section-space-info{
+    color: grey;
+    background: #F2F2F2;
+    font-size: 37px;
+    padding: 110px 0;
+    text-align: center;
+}
+h4{
+    font-size: 15px; 
+}
+.mobile-info{
+    color: grey;
+    background: white;
+    font-size: 37px;
+    padding: 110px 0;
+    text-align: center;
+}
+.friends{
+    color: grey;
+    background: #FAC960;
+    font-size: 37px;
+    padding: 110px 0;
+    text-align: center; 
+}
+
+.footer{
+    background-color: #F2F2F2;
+    color: grey;
+    font-size: 37px;
+    padding: 85px 0;
+    text-align: center; 
+}
+
+.footer img{
+    margin-left: 10px;
+}
+
+.more{
+    width: 61px;
+    height: 22px;
+    flex-shrink: 0
+    position: center;
+    border: 1px solid #758696;
+    text-align: center; 
+    background: #FFF;  
+}
+.text{
+    width: 61px;
+    height: 22px;
+    flex-shrink: 0;
+    text-align: center; 
+    padding-bottom: 8px;
+    font-size: 15px;
+}
