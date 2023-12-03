@@ -4,32 +4,40 @@
 body{
     margin: 0 auto;
     font-family: Roboto;
+    
 }
 header{
     background-color: none;
     padding: 65px 0 60px 0;
 }
 .header-container{
-    width: 800px;
+    width: 900px;
     margin: 0 auto;
 }
 .logo,
 .social{
     display: inline-block;
-width: 390px;
+    width: 435px;
+
 }
 .social{
+    
     text-align: right;
 }
 .social img{
     margin-left:17px;
 }
 .main-section{
+    margin: 0 auto;
     background: #FAC960;
     padding: 110px 0;
+
 }
 .content-wrapper{
+    width: 800px;
     text-align: center;
+    margin: 0 auto;
+    
 }
 input{
     border: none;
@@ -39,6 +47,7 @@ input{
     font-size: 30px;
 }
 button{
+    border: none;
     color: #FFF;
     width: 240px;
     height: 50px;
@@ -56,9 +65,11 @@ p{
     font-size: 37px;
     padding: 110px 0;
     text-align: center;
+    
 }
 h4{
-    font-size: 15px; 
+    font-size: 17px; 
+    font-family: Roboto;
 }
 .mobile-info{
     color: grey;
@@ -84,7 +95,7 @@ h4{
 }
 
 .footer img{
-    margin-left: 10px;
+    margin: last-child;
 }
 
 .more{
