@@ -154,6 +154,7 @@ color: white;
 font-family: 'Inter';
 border-radius: 10px;
 text-align: center;
+border: none;
 }
 .knopka:hover{
   background-color: grey;
@@ -196,8 +197,8 @@ text-align: center;
 .hover{
   width: 174px;
   height: 66px;
-  position: absolute;
-  bottom: -120px;
+  position: fixed;
+  bottom: 120px;
   border: 5px;
   right: 0px;
   background: grey;
