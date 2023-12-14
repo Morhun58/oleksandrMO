@@ -53,8 +53,10 @@ flex-wrap: wrap;
 }
 
 section{
-    width: 100%;
+    min-width: 600px;
     background-color: #F5C7B3;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .content{
