@@ -73,7 +73,20 @@ section{
      padding: 100px;
      flex-wrap: wrap;
 }
-
+.right_block img{
+    position: relative;
+    z-index: 1;
+}
+.big_text{
+    z-index: 2;
+    display: flex;
+    color: #F1BBA4;
+    writing-mode: vertical-rl;
+    transform: rotate(-180deg);
+    font-size: 170px;
+    margin-left: 360px;
+    margin-top: -530px;
+}
 .dots{
     display: flex;
     flex-direction: column;
