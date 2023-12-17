@@ -81,16 +81,13 @@ section{
     z-index: 2;
     display: flex;
     color: #F1BBA4;
-    writing-mode: vertical-rl;
-    transform: rotate(-180deg);
-    font-size: 170px;
-    margin-left: 360px;
+    margin-left: 370px;
     margin-top: -530px;
 }
 .dots{
     display: flex;
     flex-direction: column;
-    margin-left: 550px;
+    margin-left: 500px;
     margin-top: -300px;
 }
 h1{
@@ -150,15 +147,16 @@ h3{
     background-color: grey;
 }
 .small_smeg{
-    padding-top: 30px;
-    height: 150px;
-
-
-}
-.small_smeg img{
+    width: 14%;
+    display: inline-block;
+    padding: 10px;
     border: 1px solid white;
     border-radius: 7px;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 10px;
 }
+
 .small_smeg img:hover{
     border: 3px solid white;
     background-color: white;
@@ -173,3 +171,23 @@ h3{
 .small_smeg img:nth-child(4){
     margin-left: 30px;
 }
+
+/* @media (min-width: 768px){
+
+        .section{
+            width: 100px;
+            background-color: #F5C7B3;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .content{
+            width: 10%;
+            padding: 0px;
+            background-color: #F5C7B3;
+            margin: 0 auto;
+            display: flex;
+    
+        }
+        
+    } */
