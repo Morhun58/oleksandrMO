@@ -11,5 +11,3 @@ console.log('quantity', Quantity);
 
 let together = (+Price * +Quantity);
 console.log(together);
-
-//
