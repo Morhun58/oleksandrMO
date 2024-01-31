@@ -1,0 +1,235 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+}
+.head{
+    width: 100%;
+    height: 1080px;
+    background-image:  linear-gradient(to right, rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),url('/img/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 85%;
+    height: 75px;
+    display: flex;
+    margin: 0 auto;
+}
+.container2{
+    width: 85%;
+    height: 1302px;
+    display: flex;
+    margin: 0 auto;
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    margin: 0;
+}
+.logo{
+    width: 25%;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    color: white;
+    font-size: 40px;
+    span{
+        color: #F90;
+    }
+}
+.nav_menu{
+    width: 50%;
+    height: 70px;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    ul{
+        display: inline-block;
+        list-style: none;
+    }
+
+}
+.nav_menu a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    
+}
+.nav_menu a:hover{
+    color: #F90;
+}
+.buy_tour{
+    width: 25%;
+    height: 70px;
+    color:#F90 ;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    font-family: Philosopher;
+    font-size: 24px;
+}
+.left_text,.right_text{
+    width: 50%;
+    height: 500px;
+}
+
+.text{
+    width: 85%;
+    height: 700px;
+    display: flex;
+    margin: 0 auto;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+.left_text{
+    text-align: right;
+    font-family: Philosopher;
+    font-size: 50px;
+    color: white;
+    font-style: normal;
+    padding-right: 150px;
+    font-weight: 400;
+    line-height: normal;
+    span{
+        color:#F90 ;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+.right_text{
+    width: 40%;
+    text-align: left;
+    font-family: Philosopher;
+    font-size: 30px;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-left: 30px;
+    span{
+        text-align: right;
+        float: right;
+        color:#F90 ;
+        font-size: 28px;
+    }
+}
+// .content_container{
+//     width: 33.33%;
+//     height: 1280px;
+//     border: 2px solid gray;
+//     margin: 10px 0px;
+//     display: flex;
+//     flex-direction: column;
+// }
+// .content_container:nth-child(2){
+// margin-left:10px ;
+// margin-right: 10px;
+// }
+// .content{
+//     width: 100%;
+//     height:600px;
+//     border: 2px solid green;
+//     overflow: hidden;
+// }
+// .content_text{
+//     width: 100%;
+//     height:200px;
+//     border: 2px solid green;
+//     overflow: hidden;
+// }
+
+
+// .grid{
+//     position: relative;
+//     margin: 0px 0px 0px 0px;
+//     font-size: 30px;
+// }
+
+
+
+// .grid_body{
+//     display: grid;
+//     // grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+
+//     // grid-template-rows: [start] 1fr [row2] 1fr [tow3] 1fr [row-end];
+//     // grid-template-columns: [start] 1fr [col2] 1fr  [col3] 1fr [col-end];
+
+//     // justify-content: start;
+//     // align-items: start;
+// }
+
+
+.grid_items{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) ;
+}
+.grid_item{
+    position: relative;
+    padding: 0px 0px 80% 0px,
+ 
+}
+.grid_item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.grid_item_big{
+
+}
+// .grid_items_2{
+//     // grid-row-start: 1;
+//     // grid-row-end: 4;
+//     // grid-column-start: auto;
+//     // grid-column-end: auto;
+
+//     // grid-row-start: start;
+.grid_item
+
+//     // grid-row: 1 / 4;
+//     // grid-column: 2 / 3;
+//     // margin: 30px;
+//     // text-align: center;
+//     // border: 2px dashed red;
+//     // padding: 30px;
+// }
+
+
+
+@media (max-width: 1200px) {
+
+    .left_text{
+        text-align: right;
+        font-family: Philosopher;
+        font-size: 40px;
+        color: white;
+        font-style: normal;
+        padding-right: 150px;
+        font-weight: 400;
+        line-height: normal;
+        span{
+            color:#F90 ;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+    .right_text{
+        font-size: 25px;
+    }
+}
